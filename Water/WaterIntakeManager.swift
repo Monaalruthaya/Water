@@ -5,7 +5,7 @@ import SwiftUI
 class WaterIntakeManager {
     func saveWaterIntake() -> Double {
         // Replace with actual logic to get water intake from storage or database.
-        return 1.9 // Example water intake value
+        return 0.0 // Example water intake value
     }
 }
 
@@ -16,6 +16,7 @@ struct WaterIntakeView: View {
     private let intakeManager = WaterIntakeManager() // Simulated function
 
     var body: some View {
+        
         VStack {
             // Title Text
             Text("Today's Water Intake")
